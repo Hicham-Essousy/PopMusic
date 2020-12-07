@@ -1,0 +1,27 @@
+
+#naav{
+    border-radius: 20px;
+}
+#carda{
+    background-color: white;
+    height: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#carda:hover{
+    border-radius: 20px;
+    background-color: #a3c2c2;
+    transform: translateX(-50px);
+    transform:translateY(-30px);
+    transition: all ease 0.3s;
+    
+   }
+
+.link{
+    margin-left: 160px;
+}
